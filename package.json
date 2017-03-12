@@ -1,7 +1,7 @@
 {
     "scripts": {
         "lint": "stylelint *.css **/*.css && eslint .",
-        "precommit": "lint"
+        "precommit": "npm run lint"
     },
     "dependencies": {
         "mocha": "3.1.0",
