@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "lint": "stylelint *.css **/*.css && eslint ."
+        "lint": "stylelint *.css **/*.css && eslint .",
+        "precommit": "lint"
     },
     "dependencies": {
         "mocha": "3.1.0",
@@ -8,5 +9,8 @@
         "stylelint-config-hrundel": "latest",
         "eslint": "3.7.0",
         "eslint-config-hrundel": "latest"
+    },
+    "devDependencies": {
+        "husky": "0.13.2"
     }
 }
